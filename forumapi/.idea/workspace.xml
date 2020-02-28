@@ -1,14 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ab75025-7ac1-4424-83d8-80b3e7671ed6" name="Default Changelist" comment="" />
+    <list default="true" id="b399e7e8-2ff3-4da3-bc50-84d39e6d62f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/components/common/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/components/common/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/css/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/avatar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/comment-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/exchange-rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/follow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/nav-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/paid1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/search-blur.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/search-focus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/shang.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/sprite.9d24217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forumpc/static/image/write.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/forumapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/forumapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/settings_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/settings_old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/utils/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/utils/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/forum.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/forum.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/forumapi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582891536371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forumapi/settings_old.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forumapi/settings/dev.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forumapi/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forumapi/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forumapi/utils/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forumapi/settings/prod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,19 +150,74 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1YO8EM6ET6VGknepsdIdQCMuhu8" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts.py" />
+        <option value="$PROJECT_DIR$/forumapi/settings/prod.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/forumapi/utils/exceptions.py" />
+        <option value="$PROJECT_DIR$/forumapi/__init__.py" />
+        <option value="$PROJECT_DIR$/forumapi/settings_old.py" />
+        <option value="$PROJECT_DIR$/forumapi/settings/dev.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="245" />
+    <option name="y" value="380" />
+    <option name="width" value="1600" />
+    <option name="height" value="715" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="forumapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forumapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumapi" type="462c0819:PsiDirectoryNode" />
+              <item name="forumapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../forumpc" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.manage">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="forumapi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -43,7 +231,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:8080" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:8000" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -89,49 +277,115 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ab75025-7ac1-4424-83d8-80b3e7671ed6" name="Default Changelist" comment="" />
-      <created>1582802168130</created>
+      <changelist id="b399e7e8-2ff3-4da3-bc50-84d39e6d62f1" name="Default Changelist" comment="" />
+      <created>1582888382463</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582802168130</updated>
-      <workItem from="1582802174683" duration="1461000" />
+      <updated>1582888382463</updated>
+      <workItem from="1582888386812" duration="1881000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1881000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966262" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="307" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582802938434">
-      <screen x="67" y="27" width="1533" height="1173" />
-    </state>
-    <state x="307" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.1173@67.27.1533.1173" timestamp="1582802938434" />
-    <state width="1348" height="257" key="GridCell.Tab.0.bottom" timestamp="1582803683319">
-      <screen x="67" y="27" width="1533" height="1173" />
-    </state>
-    <state width="1348" height="257" key="GridCell.Tab.0.bottom/67.27.1533.1173@67.27.1533.1173" timestamp="1582803683319" />
-    <state width="1348" height="257" key="GridCell.Tab.0.center" timestamp="1582803683317">
-      <screen x="67" y="27" width="1533" height="1173" />
-    </state>
-    <state width="1348" height="257" key="GridCell.Tab.0.center/67.27.1533.1173@67.27.1533.1173" timestamp="1582803683317" />
-    <state width="1348" height="257" key="GridCell.Tab.0.left" timestamp="1582803683315">
-      <screen x="67" y="27" width="1533" height="1173" />
-    </state>
-    <state width="1348" height="257" key="GridCell.Tab.0.left/67.27.1533.1173@67.27.1533.1173" timestamp="1582803683315" />
-    <state width="1348" height="257" key="GridCell.Tab.0.right" timestamp="1582803683317">
-      <screen x="67" y="27" width="1533" height="1173" />
-    </state>
-    <state width="1348" height="257" key="GridCell.Tab.0.right/67.27.1533.1173@67.27.1533.1173" timestamp="1582803683317" />
-    <state x="368" y="249" key="SettingsEditor" timestamp="1582802866228">
-      <screen x="67" y="27" width="1533" height="1173" />
-    </state>
-    <state x="368" y="249" key="SettingsEditor/67.27.1533.1173@67.27.1533.1173" timestamp="1582802866228" />
-    <state x="513" y="279" width="662" height="670" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582803655854">
-      <screen x="67" y="27" width="1533" height="1173" />
-    </state>
-    <state x="513" y="279" width="662" height="670" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1533.1173@67.27.1533.1173" timestamp="1582803655854" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/forumapi/settings/dev.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/forumapi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582803683226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/forumapi/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/settings/prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/utils/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/settings_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/settings/dev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

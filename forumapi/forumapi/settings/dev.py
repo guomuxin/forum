@@ -20,14 +20,18 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 't1)inr-92c!!ciu1mmmt82vrviq148s@rx3onhk7sd^vhvs*kb'
+SECRET_KEY = 'f6+%@1t83!p!w)&2jb1x6xz3+i#qp%r7%x_gw)o0j_=32-c%8n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
+# CORS组的配置信息
+CORS_ORIGIN_WHITELIST = (
+    'http://www.guomuxin.net:8080',
+)
+CORS_ALLOW_CREDENTIALS = False  # 允许ajax跨域请求时携带cookie
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -47,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'forumapi.urls'
@@ -121,6 +127,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+# 日志配置
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
