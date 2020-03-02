@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b399e7e8-2ff3-4da3-bc50-84d39e6d62f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumapi/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumapi/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/forum.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/forum.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/src/router/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +75,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forumapi/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="82">
               <caret line="196" column="1" lean-forward="true" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="1" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
@@ -107,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forumapi/apps/users/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="-18">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -143,12 +135,12 @@
         <option value="$PROJECT_DIR$/forumapi/apps/users/urls.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/forumapi/settings/dev.py" />
-        <option value="$PROJECT_DIR$/forumapi/apps/users/utils.py" />
         <option value="$PROJECT_DIR$/forumapi/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/forumapi/apps/users/utils.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="245" />
     <option name="y" value="380" />
     <option name="width" value="1600" />
@@ -207,7 +199,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../forumpc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,12 +281,12 @@
       <updated>1582888382463</updated>
       <workItem from="1582888386812" duration="1881000" />
       <workItem from="1583028096220" duration="709000" />
-      <workItem from="1583122165963" duration="10239000" />
+      <workItem from="1583122165963" duration="11594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12829000" />
+    <option name="totallyTimeSpent" value="14184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,15 +299,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21187584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21187584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,16 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forumapi/apps/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -543,9 +524,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/forumapi/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="82">
           <caret line="196" column="1" lean-forward="true" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="1" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
