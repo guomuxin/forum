@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b399e7e8-2ff3-4da3-bc50-84d39e6d62f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aba16976-1dae-499b-ae86-4a53a9c8852b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aba16976-1dae-499b-ae86-4a53a9c8852b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumapi/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/apps/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumapi/apps/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/apps/users/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumapi/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/apps/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/forum.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/forum.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forumpc/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/src/settings.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forumapi/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -135,7 +127,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="das://aba16976-1dae-499b-ae86-4a53a9c8852b/schema/forum/table/forum_users">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -332,12 +324,12 @@
       <workItem from="1582888386812" duration="1881000" />
       <workItem from="1583028096220" duration="709000" />
       <workItem from="1583122165963" duration="11594000" />
-      <workItem from="1583214706751" duration="9629000" />
+      <workItem from="1583214706751" duration="9634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23813000" />
+    <option name="totallyTimeSpent" value="23818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forumapi/apps/users/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -613,6 +595,16 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
