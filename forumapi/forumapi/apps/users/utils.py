@@ -1,6 +1,8 @@
 from django.contrib.auth.backends import ModelBackend
-from users.models import User
+from django.contrib.auth import get_user_model
 from django.db.models import Q
+
+from .models import User
 
 
 def jwt_response_payload_handler(token, user=None, request=None):
@@ -24,3 +26,12 @@ class UsernameMobileAuthBackend(ModelBackend):
         else:
             if isinstance(user,User) and user.check_password(password) and self.user_can_authenticate(user):
                 return user
+
+
+def get_user_by_data(**kwargs):
+    model = get_user_model()
+    user = model.objects.filter(**kwargs)
+    if user:
+        return True
+    else:
+        return False

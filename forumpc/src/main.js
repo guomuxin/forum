@@ -11,6 +11,7 @@ import "../static/css/reset.css";
 import "../static/css/iconfont.css";
 import "../static/css/iconfont.eot";
 import axios from 'axios'; // 从node_modules目录中导入包
+import "../static/js/TCaptcha";
 
 // 允许ajax发送请求时附带cookie，设置为不允许
 axios.defaults.withCredentials = false;

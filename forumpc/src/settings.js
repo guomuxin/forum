@@ -1,3 +1,6 @@
 export default {
-  Host:"http://127.0.0.1",
+  Host:"http://api.forum.cn:8000",
+  TC_captcha:{
+    app_id: "2004120897",
+  },
 }

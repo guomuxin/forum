@@ -33,7 +33,7 @@
           <div class="forget-btn">
             <a class="" data-toggle="dropdown" href="">登录遇到问题?</a>
           </div>
-          <button class="sign-in-button" id="sign-in-form-submit-btn" type="button" @click="loginHandler">
+          <button class="sign-in-button" id="sign-in-form-submit-btn" type="button" @click="show_captcha">
             <span id="sign-in-loading"></span>
             登录
           </button>
@@ -69,11 +69,6 @@
     },
     methods: {
       loginHandler() {
-        if (this.username.length == 0 | this.password.length == 0) {
-          this.$message("用户名或密码不能为空")
-          return
-
-        }
         this.$axios.post("http://api.forum.cn:8000/users/login/",
           {
             "username": this.username,
@@ -105,11 +100,34 @@
             sessionStorage.user_avatar = response.data.avatar;
             sessionStorage.user_nickname = response.data.nickname;
           }
-          this.$router.back()
+          this.$router.push('/')
         }).catch((error) => {
           this.$message("账户名或密码错误,请重新输入")
           this.password = ""
         })
+      },
+      show_captcha() {
+        // 显示验证码
+
+        if (this.username.length < 1 || this.password.length < 1) {
+          this.$message.error("对不起,账号或密码不能为空!");
+          return;
+        }
+
+        var captcha1 = new TencentCaptcha(this.$settings.TC_captcha.app_id, (res)=> {
+          /*
+          * ret	      Int	      验证结果，0：验证成功。2：用户主动关闭验证码。
+            ticket	  String	  验证成功的票据，当且仅当 ret = 0 时 ticket 有值。
+            appid	    String	  场景 ID。
+            bizState	Any	      自定义透传参数。
+            randstr	  String	 本次验证的随机串，请求后台接口时需带上。
+          *
+          * */
+          if (res.ret === 0) {
+            this.loginHandler()
+          }
+        });
+        captcha1.show();
       }
     }
   }
