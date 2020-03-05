@@ -24,7 +24,7 @@
             <input type="text" v-model="sms_code" id="sms_code" placeholder="手机验证码">
             <i class="iconfont ic-verify"></i>
             <a tabindex="-1" class="btn-up-resend js-send-code-button" :class="{disable:send_able}"
-               href="javascript:void(0);" id="send_code">{{sms_code_text}}</a>
+               href="javascript:void(0);" id="send_code" @click="send_sms">{{sms_code_text}}</a>
           </div>
           <input type="hidden" name="security_number" id="security_number">
           <div class="input-prepend">
@@ -71,7 +71,9 @@
           this.is_show_sms_code = true;
           this.check_mobile_unique()
         } else {
-          this.is_show_sms_code = false;
+          this.is_show_sms_code = false
+          this.send_able = false
+
         }
       }
     },
@@ -110,7 +112,34 @@
           }).catch(() => {
             this.$router.go(-1);
           });
+        }).catch((error) => {
+          this.$message(error.response.data)
+          console.log(error.response.data)
         })
+      },
+      send_sms() {
+        this.$axios.get(this.$settings.Host + `/users/sms/${this.mobile}/`).then((response) => {
+          console.log(response.data)
+        }).catch((error) => {
+          if(error.response.data.non_field_errors){
+
+            this.$message(error.response.data.non_field_errors[0])
+          }
+          console.log(error.response.data)
+        })
+        let timer = 60
+        let t = setInterval(() => {
+          if (--timer < 1) {
+            this.sms_code_text = "发送验证码";
+            this.send_able = false
+            clearInterval(t);
+          }
+          else{
+            this.sms_code_text = `${timer}秒后重新发送`
+            this.send_able = true
+          }
+        },1000)
+
       }
     }
   }
@@ -422,6 +451,32 @@
 
   .sign .sign-in-button:hover, .sign .sign-up-button:hover {
     background: #3db922
+  }
+
+  .sign .btn-in-resend {
+    background-color: #3194d0
+  }
+
+  .sign .sign-up-msg {
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #969696
+  }
+
+  .sign .btn-in-resend, .sign .btn-up-resend {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 36px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #42c02e;
+    border-radius: 20px;
+    line-height: 36px
   }
 
   .sign .btn-in-resend {

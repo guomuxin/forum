@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b399e7e8-2ff3-4da3-bc50-84d39e6d62f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/apps/users/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/apps/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumapi/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/forumapi/settings/dev.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/forum.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/forum.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forumpc/src/components/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../forumpc/src/components/Register.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +17,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/forumapi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1583228550779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/forumapi$redis_test.coverage" NAME="redis-test Coverage Results" MODIFIED="1583390185174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/forumapi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1583403243887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -58,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forumapi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="475">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -67,23 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forumapi/apps/users/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="8" column="103" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forumapi/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="196" column="1" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="1" />
+            <state relative-caret-position="550">
+              <caret line="154" column="1" lean-forward="true" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -94,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forumapi/apps/users/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="125">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -103,13 +98,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forumapi/settings/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forumapi/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+            <state relative-caret-position="1375">
+              <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,31 +122,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forumapi/apps/users/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+            <state relative-caret-position="725">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://aba16976-1dae-499b-ae86-4a53a9c8852b/schema/forum/table/forum_users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forumapi/apps/users/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,12 +155,14 @@
         <option value="$PROJECT_DIR$/forumapi/urls.py" />
         <option value="$USER_HOME$/Envs/forumPro/Lib/site-packages/django/db/backends/mysql/base.py" />
         <option value="$USER_HOME$/Envs/forumPro/Lib/site-packages/django/db/backends/mysql/operations.py" />
+        <option value="$PROJECT_DIR$/forumapi/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/forumapi/apps/users/utils.py" />
+        <option value="$PROJECT_DIR$/redis-test.py" />
+        <option value="$PROJECT_DIR$/forumapi/settings/constants.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/forumapi/settings/dev.py" />
-        <option value="$PROJECT_DIR$/forumapi/apps/users/models.py" />
         <option value="$PROJECT_DIR$/forumapi/apps/users/urls.py" />
         <option value="$PROJECT_DIR$/forumapi/apps/users/views.py" />
-        <option value="$PROJECT_DIR$/forumapi/apps/users/utils.py" />
         <option value="$PROJECT_DIR$/forumapi/apps/users/serializers.py" />
       </list>
     </option>
@@ -196,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,16 +206,11 @@
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="forumapi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forumapi" type="462c0819:PsiDirectoryNode" />
-              <item name="forumapi" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,6 +221,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\forumPro\forumapi\forumapi\utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,6 +262,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="redis-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="forumapi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis-test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="forumapi" type="Python.DjangoServer" factoryName="Django server">
       <module name="forumapi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,10 +310,12 @@
     <list>
       <item itemvalue="Django server.forumapi" />
       <item itemvalue="Python.manage" />
+      <item itemvalue="Python.redis-test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.redis-test" />
       </list>
     </recent_temporary>
   </component>
@@ -324,12 +332,16 @@
       <workItem from="1582888386812" duration="1881000" />
       <workItem from="1583028096220" duration="709000" />
       <workItem from="1583122165963" duration="11594000" />
-      <workItem from="1583214706751" duration="9634000" />
+      <workItem from="1583214706751" duration="10205000" />
+      <workItem from="1583315699655" duration="10566000" />
+      <workItem from="1583399307935" duration="94000" />
+      <workItem from="1583403138795" duration="912000" />
+      <workItem from="1583406229767" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23818000" />
+    <option name="totallyTimeSpent" value="36847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,12 +356,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21524966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22941971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,7 +377,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.3299595" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299595" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,16 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forumapi/settings/dev.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="196" column="1" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="1" />
-          <folding>
-            <element signature="e#309#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Envs/forumPro/Lib/site-packages/django/conf/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -541,39 +543,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forumapi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="8" column="103" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forumapi/apps/users/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="725">
           <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
@@ -581,15 +553,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/serializers.py">
+    <entry file="file://$USER_HOME$/Envs/forumPro/Lib/site-packages/django_redis/client/sharded.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/forumPro/Lib/site-packages/django_redis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/forumPro/Lib/site-packages/django/core/cache/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://aba16976-1dae-499b-ae86-4a53a9c8852b/schema/forum/table/forum_users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -598,12 +584,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/utils/yuntongxun/sms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="103" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/settings/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/forumapi/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state relative-caret-position="1375">
+          <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forumapi/settings/dev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="154" column="1" lean-forward="true" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+          <folding>
+            <element signature="e#309#318#0" expanded="true" />
           </folding>
         </state>
       </provider>

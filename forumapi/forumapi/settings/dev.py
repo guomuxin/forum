@@ -93,6 +93,49 @@ DATABASES = {
     }
 }
 
+# 设置redis缓存
+CACHES = {
+    # 默认缓存
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # 项目上线时,需要调整这里的路径
+        "LOCATION": "redis://127.0.0.1:6379/0",
+
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供给xadmin或者admin的session存储
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供存储短信验证码
+    "sms_code":{
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# 设置xadmin用户登录时,登录信息session保存到redis
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"
+
+# 云通讯的短信配置
+SMS = {
+    "_accountSid": "8aaf07087051bcec0170a959af953107",
+    "_accountToken": "b15a42a1bcf44db59911f19bb6703a02",
+    "_appId": "8aaf07087051bcec0170a959aff9310e",
+    "_serverIP": "sandboxapp.cloopen.com",
+    "_serverPort": "8883",
+}
+
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 

@@ -2,6 +2,7 @@ import re
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from .utils import get_user_by_data
+from django_redis import get_redis_connection
 
 
 class RegisterModelSerializer(serializers.ModelSerializer):
@@ -25,7 +26,18 @@ class RegisterModelSerializer(serializers.ModelSerializer):
         # 验证手机号是否被注册
         if get_user_by_data(mobile=attrs.get("mobile")):
             raise serializers.ValidationError("手机号已被注册")
+
+        #验证码是否正确
+        redis = get_redis_connection("sms_code")
+        sms_code = redis.get(attrs.get("mobile"))
+        if sms_code:
+            if sms_code.decode() != attrs.get("sms_code"):
+                raise serializers.ValidationError("短信验证码不正确")
+        else:
+            raise serializers.ValidationError("请发送验证码")
         return attrs
+
+
 
     def create(self, validated_data):
         try:

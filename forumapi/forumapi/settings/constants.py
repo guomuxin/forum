@@ -1,0 +1,8 @@
+# 验证码有效期
+SMS_EXPIRE_TIME = 300
+
+# 验证码模板ID
+SMS_TEMPLATE_ID = 1
+
+#验证码发送冷却时间
+SMS_INTERVAL_TIME = 60
