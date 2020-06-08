@@ -36,6 +36,9 @@ CORS_ALLOW_CREDENTIALS = False  # 允许ajax跨域请求时携带cookie
 # Application definition
 
 INSTALLED_APPS = [
+    'xadmin',
+    'crispy_forms',
+    'reversion',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,6 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'users',
+    'home',
+    'article',
 ]
 
 MIDDLEWARE = [
@@ -157,7 +162,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'zh-Hans'
 
 TIME_ZONE = 'Asia/shanghai'
 
@@ -171,6 +176,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'statics')
+]
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+MEDIA_URL = "/media/"
+
 
 # 日志配置
 LOGGING = {

@@ -12,7 +12,13 @@ import "../static/css/iconfont.css";
 import "../static/css/iconfont.eot";
 import axios from 'axios'; // 从node_modules目录中导入包
 import "../static/js/TCaptcha";
-
+import mavonEditor from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
+// 注册mavon-editor组件
+Vue.use(mavonEditor);
+new Vue({
+  'el': '#main'
+})
 // 允许ajax发送请求时附带cookie，设置为不允许
 axios.defaults.withCredentials = false;
 
@@ -28,6 +34,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
 })

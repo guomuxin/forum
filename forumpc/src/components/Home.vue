@@ -7,8 +7,9 @@
           <!-- Banner -->
           <div class="banner">
             <el-carousel height="272px" indicator-position="none" interval="2000">
-              <el-carousel-item v-for="item in 4" :key="item">
-                <h3 class="small">{{ item }}</h3>
+              <el-carousel-item v-for="item, key in banner_list" :key="item">
+                <a :href="item.link" v-if="item.is_http"><img :src="item.image"></a>
+                <router-link :to="item.link" v-else="item.is_http"><img :src="item.image"></router-link>
               </el-carousel-item>
             </el-carousel>
           </div>
@@ -102,9 +103,19 @@
       name:"Home",
       data(){
           return {
-
+            banner_list:[]
           }
       },
+    created(){
+      this.banner_img()
+    },
+    methods: {
+        banner_img(){
+          this.$axios.get(this.$settings.Host+`/banner/`).then(response=>{
+            this.banner_list = response.data
+          })
+        }
+    },
       components:{
         Header,
         Footer,
